@@ -4,7 +4,7 @@ def my_each(name_array)
 
   i = 0 
   while i < name_array.length 
-    yield(name_array)
+    yield[i]
     i += 1 
 end
   name_array
